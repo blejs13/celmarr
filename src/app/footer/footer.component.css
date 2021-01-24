@@ -1,0 +1,16 @@
+footer {
+  /*page footer*/
+  background: #131313;
+}
+footer *{
+  font-family: 'Raleway', sans-serif;
+}
+#small_menu{
+  width: 100vw;
+}
+#small_menu > * {
+  border-left: 1px solid #d6d6d6;
+}
+#small_menu > a:nth-last-child(1) {
+  border-right: 1px solid #d6d6d6;
+}

@@ -1,0 +1,128 @@
+/* .nav-agra{
+    background:rgba( 255, 255, 255);
+    position:fixed;
+    width: 100vw;
+    font-size: 1.1em;
+    /* box-shadow:0 0 0.3em black; */
+    /* z-index: 100;
+}
+.nav-toggler-agra{
+    cursor: pointer;
+    border: none;
+    font-size: 2em;
+} */ 
+/* #nav-logo{
+    display: none;
+} */
+#nav-logo{
+    display: none;
+}
+nav{
+    background: white;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    z-index: 100;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:active{
+    color:#666;
+}
+#nav-toggle{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+#nav-bar{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    line-height: 1em;
+    font-size: 1.1em;
+    align-items: center;
+}
+#nav-bar>*{
+display: block;
+margin: 0;
+
+}
+#nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /*animation from 0 to 9em*/
+    overflow: hidden;
+    max-height:0;
+    transition: all 0.3s ease;
+    padding: 0em 1em;
+}
+#nav-links a{
+width:100%;
+font-size: 1.1em;
+text-align:end;
+margin:0.3em 0em;
+}
+#nav-toggle:active {
+    color:#666;
+}
+#toggle:checked ~ #nav-links{
+    max-height:15em;
+    padding: 1em;
+    width: auto;
+}
+#toggle{
+    display: none;
+}
+
+@media only screen and (min-width: 900px) {
+    #nav-bar{
+        display: none;
+    }
+    #nav-logo{
+        display: flex;
+        justify-content: start;
+        height: 0;
+    }
+    #nav-logo>img{
+        position: relative;
+        height: 3em;
+        top: 0.5em;
+        left: 1em;
+    }
+
+    #toggle:checked ~ #nav-links{
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        flex-direction: row;
+        /*animation from 0 to 9em*/
+        overflow: hidden;
+        max-height:10em;
+        height: 4em;
+        transition: all 0.3s ease;
+        padding: 0em 1em;
+    }
+    #nav-links{
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        flex-direction: row;
+        /*animation from 0 to 9em*/
+        overflow: hidden;
+        max-height:10em;
+        height: 4em;
+        transition: all 0.3s ease;
+        padding: 0em 1em;
+        }
+    #nav-links a{
+        width:auto;
+        margin:0.3em 0.3em;
+        }
+}

@@ -1,0 +1,25 @@
+/*for max 991px*/
+*{
+	/* box-sizing: border-box; */
+	margin:0;
+	padding:0;
+	/*border:1px solid black; border:1px solid black; */
+	/* font-family: 'Raleway', sans-serif; */
+	font-family: 'Fraunces', serif;
+	/* font-size: 1.02em; */
+}
+#page-wrapper{
+	background: white;
+	/*font*/
+	color: #333;
+}
+/*ALL*/
+.noSelect{/*deleting highlighting from items*/
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
