@@ -1,23 +1,37 @@
-main{
-	position: relative;
-	top:3em;
-	margin-bottom: 5em;
-	
+main {
+  position: relative;
+  top: 3em;
+  margin-bottom: 5em;
 }
-.main-about{
-	text-shadow: 1px 1px 2px white;
+.main-about {
+  text-shadow: 1px 1px 2px white;
 }
-.main-photo>img{
-	max-width: 100%;
+.main-photo > img {
+  max-width: 100%;
+}
+.shadow1 {
+  /* cfcebc */
+  box-shadow: 20px 10px #e8decf;
+}
+.shadow2 {
+  /* 5c5652 */
+  box-shadow: 20px 10px #e8decf;
 }
 @media only screen and (min-width: 900px) {
-	#main-photo>img{
-		max-width: auto;
-	}
-main{
-	position: relative;
-	top:3.5em;
-	margin-bottom: 6em;
-}
-
+  #main-photo > img {
+    max-width: auto;
+  }
+  main {
+    position: relative;
+    top: 3.5em;
+    margin-bottom: 6em;
+  }
+  .shadow1 {
+    /* cfcebc */
+    box-shadow: -30px 20px #e8decf;
+  }
+  .shadow2 {
+    /* 5c5652 */
+    box-shadow: 30px 20px #e8decf;
+  }
 }

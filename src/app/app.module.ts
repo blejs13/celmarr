@@ -6,8 +6,9 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import { NotFoundComponent } from './not-found/not-found.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { PolicyComponent } from './policy/policy.component';
+import { VirtualwalkComponent } from './virtualwalk/virtualwalk.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +17,9 @@ import { GalleryComponent } from './gallery/gallery.component';
     FooterComponent,
     HomeComponent,
     ContactComponent,
-    NotFoundComponent,
-    GalleryComponent
+    GalleryComponent,
+    PolicyComponent,
+    VirtualwalkComponent
   ],
   imports: [
     BrowserModule,

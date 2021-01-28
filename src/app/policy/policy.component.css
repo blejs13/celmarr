@@ -1,0 +1,14 @@
+main{
+	position: relative;
+	top:3em;
+	margin-bottom: 5em;
+}
+main *{
+    font-family: 'Raleway', sans-serif;
+}
+@media only screen and (min-width: 900px) {
+    main {
+      top: 3.5em;
+      margin-bottom: 6em;
+    }
+  }
