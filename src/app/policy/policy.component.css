@@ -6,7 +6,7 @@ main{
 main *{
     font-family: 'Raleway', sans-serif;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
     main {
       top: 3.5em;
       margin-bottom: 6em;

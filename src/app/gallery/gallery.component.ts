@@ -12,6 +12,12 @@ export class GalleryComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
   }
 
+  showGallery(id:string){
+    alert(id)
+
+
+
+  }
 
   nextImage() {
     let $active = $('#button_gallery .active');
@@ -48,6 +54,9 @@ export class GalleryComponent implements OnInit, AfterViewInit {
       $('#next').attr("disabled", 1);
       tmp.nextImage();
       setTimeout(function () { $('#next').removeAttr( "disabled" );}, 250);
+    });
+    $(".exit").click(function () {
+      $('#gallery').remove();
     });
   }
 
